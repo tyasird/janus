@@ -8,14 +8,6 @@ import matplotlib.pyplot as plt
 from itertools import product
 from scipy.linalg import svd
 
-# def partialcorr(x,y, x_mean, y_mean):
-#     xm = x - x_mean
-#     ym = y - y_mean
-#     normxm = np.linalg.norm(xm)
-#     normym = np.linalg.norm(ym)
-#     xm_ym_multiple = np.dot(xm,ym)
-#     norm = normxm*normym
-#     return xm, ym, norm, xm_ym_multiple
 
 #%%
 def pcorr(x,y,column): 
