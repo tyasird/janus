@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+.janus.result.pkl
+.vscode/
+.vscode/*
+**/result.pkl
+output/
+
+bfg-*.jar
+
+# Virtual environments
+.venv
+
