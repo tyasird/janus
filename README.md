@@ -2,6 +2,32 @@
 
 This project can be run from the command line with `janus.py` or `python -m janusbio.cli`.
 
+## Installation
+
+### Install from local source
+
+```bash
+pip install .
+```
+
+### Install from GitHub
+
+```bash
+pip install git+https://github.com/tyasird/janus.git
+```
+
+### Editable install for development
+
+```bash
+pip install -e .
+```
+
+After installation, you can run the CLI as:
+
+```bash
+janus --help
+```
+
 ## Input format
 
 - Provide 2 raw datasets:
