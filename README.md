@@ -4,16 +4,18 @@ This project can be run from the command line with `janus.py` or `python -m janu
 
 ## Installation
 
-### Install from local source
 
-```bash
-pip install .
-```
 
 ### Install from GitHub
 
 ```bash
 pip install git+https://github.com/tyasird/janus.git
+```
+
+### Install from PyPI
+
+```bash
+pip install janusbio
 ```
 
 ### Editable install for development
