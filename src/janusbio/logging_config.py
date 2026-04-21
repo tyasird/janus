@@ -1,4 +1,3 @@
-
 import sys
 import emoji
 from loguru import logger as global_logger
@@ -41,11 +40,8 @@ class CustomLogger:
     def __getattr__(self, name):
         return getattr(self._log, name)
 
-# Type checker compatibility
+
 if TYPE_CHECKING:
     log: CustomLogger
 else:
     log = CustomLogger(pkg_logger)
-
-
-

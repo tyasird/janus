@@ -1,19 +1,35 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyo
+*.pyd
 build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-.janus.result.pkl
+.janus_result.pkl
+*.pkl
+*.csv
+*.xlsx
+.DS_Store
 .vscode/
 .vscode/*
 **/result.pkl
 output/
+output_cli_test/
+output_cli_test_refactor/
+
+*.parquet
 
 bfg-*.jar
 
 # Virtual environments
 .venv
+venv/
+env/
+
 
